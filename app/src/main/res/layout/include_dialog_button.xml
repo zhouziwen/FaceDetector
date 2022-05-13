@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_30"
+    android:orientation="horizontal">
+
+
+    <Button
+        android:id="@+id/btn_negative_custom_dialog"
+        style="@style/auv_dialog_message_button"
+        android:text="cancle" />
+
+    <View
+        android:layout_width="@dimen/dp_1"
+        android:layout_height="match_parent"
+        android:background="@color/divider" />
+
+    <Button
+        android:id="@+id/btn_positive_custom_dialog"
+        style="@style/auv_dialog_message_button"
+        android:text="confirm" />
+
+</LinearLayout>

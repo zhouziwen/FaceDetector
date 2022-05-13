@@ -1,0 +1,46 @@
+<resources>
+    <string name="library_not_found">library not found, please check if you put .so files into the project directory app\\src\\main\\jniLibs</string>
+    <string name="permission_denied">permission denied!</string>
+    <string name="active_success">active success</string>
+    <string name="already_activated">already_activated</string>
+    <string name="active_failed">active failed,code is %d</string>
+    <string name="init_failed">init failed,code is %d</string>
+    <string name="please_wait">Please wait&#8230;</string>
+    <string name="id_hint">Fill User ID</string>
+    <string name="name_hint">Fill UserName</string>
+    <string name="delete_fail">Delete fail, try later.</string>
+    <string name="delete_success">Delete Success!</string>
+    <string name="photo_empty">No face detected. Please take photo first and click set face data button.</string>
+    <string name="incorrect_url">Incorrect url format</string>
+    <string name="new_password_hint">fill new password</string>
+    <string name="confirm_password_hint">confirm password</string>
+    <string name="service_not_available">Service exception, please try again later</string>
+    <string name="network_not_available">The network is not connected, please check the network settings</string>
+    <string name="json_invalid">json format error</string>
+    <string name="recognition_success">Face recognition is successful</string>
+    <string name="recognition_fail">Face recognition failed, Please Retake the photo</string>
+    <string name="shelf">Fill Shelf </string>
+    <string name="room">Fill Room </string>
+    <string name="socket_name">Fill Socket Domain Name</string>
+    <string name="socket_port">Fill Socket Port</string>
+    <string name="api_domain_name">Fill Service Domain Name</string>
+    <string name="api_port">Fill Service Port</string>
+    <string name="user">User :  </string>
+    <string-array name="tips">
+        <item>Look at the camera</item>
+        <item>Don\'t cover your face</item>
+        <item>No eyeglasses reflective</item>
+    </string-array>
+    <string-array name="titles">
+        <item>UserId</item>
+        <item>Name</item>
+        <item>Face Data</item>
+        <item>Operate</item>
+    </string-array>
+    <string-array name="tabs">
+        <item>User Management</item>
+        <item>Modify Password</item>
+        <item>Settings</item>
+        <item>Logout</item>
+    </string-array>
+</resources>

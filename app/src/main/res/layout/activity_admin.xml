@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#000D46">
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="102dp"
+            android:paddingLeft="45dp">
+        <TextView
+                android:id="@+id/btn_add"
+                android:layout_width="120dp"
+                android:layout_height="42dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginRight="45dp"
+                android:background="@drawable/btn_bkg"
+                android:layout_alignParentRight="true"
+                android:text="Add User"
+                android:textSize="16sp"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:gravity="center"/>
+        <com.aiyouwei.drk.shelf.admin.TabLayout
+                android:id="@+id/tab_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toLeftOf="@id/btn_add"/>
+    </RelativeLayout>
+    <LinearLayout
+            android:id="@+id/title_layout"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="#0E308A"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="45dp"
+            android:orientation="horizontal"/>
+    <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#26006CFF"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="45dp"
+            android:layout_marginBottom="45dp"/>
+</LinearLayout>

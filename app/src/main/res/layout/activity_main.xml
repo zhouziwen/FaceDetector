@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+            android:background="@color/white"
+            >
+
+    <com.aiyouwei.drk.shelf.widget.CameraPreview
+        android:id="@+id/rgb_preview"
+        android:layout_width="@dimen/dp_492_5"
+        android:layout_height="@dimen/dp_123" />
+
+    <com.aiyouwei.drk.shelf.widget.CameraPreview
+        android:id="@+id/ir_preview"
+        android:layout_width="@dimen/dp_492_5"
+        android:layout_height="@dimen/dp_123" />
+
+<!--    <ImageView android:layout_width="match_parent"-->
+<!--               android:layout_height="match_parent"-->
+<!--               android:scaleType="fitXY"-->
+<!--               android:src="@drawable/home_bg"/>-->
+    <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/iv_title_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bg_title" />
+
+        <ImageView
+                android:id="@+id/iv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/title"/>
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/show_user_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/sp_17_8"
+        android:layout_marginStart="@dimen/dp_22"
+        android:layout_marginTop="@dimen/dp_50_5"
+        android:text="@string/user"
+        />
+
+    <com.aiyouwei.drk.shelf.home.TipsLayout
+            android:id="@+id/tip_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"/>
+    <ImageView
+            android:id="@+id/iv_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo"/>
+
+    <com.aiyouwei.drk.shelf.home.RightPaneLayout
+            android:id="@+id/right_pane"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"/>
+
+    <com.aiyouwei.drk.shelf.widget.FaceRectView
+        android:id="@+id/face_rect_view"
+        android:layout_width="755dp"
+        android:layout_height="708dp" />
+</FrameLayout>
